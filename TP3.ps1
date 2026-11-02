@@ -1,5 +1,5 @@
 # Pedir al usuario el numero limite
-[int]$limite = Read-Host "Introduce un número limite"
+[int]$limite = Read-Host "Introduce un numero limite"
 
 # Ciclo for desde 1 hasta el numero limite
 for ($i = 1; $i -le $limite; $i++) {
